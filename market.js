@@ -19,7 +19,7 @@
 
 // function manipulateData (teslaData){
 
-}
+
 fetch("https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/get-watchlist-performance?userId=X3NJ2A7VDSABUI4URBWME2PZNM&pfId=the_berkshire_hathaway_portfolio&symbols=%5EGSPC&region=US", {
 	"method": "GET",
 	"headers": {
