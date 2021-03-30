@@ -1,4 +1,4 @@
-const URL = " https://v6.exchangerate-api.com/v6/c880451324935553df25617a/latest/EUR";
+const URL = " https://v6.exchangerate-api.com/v6/c880451324935553df25617a/latest/USD";
 
 fetch(URL)
 .then(response => response.json())
