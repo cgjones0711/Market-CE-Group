@@ -38,7 +38,7 @@ body {
   margin-left: 3px;
   margin-right: 3px;
   margin-top: 2px !important;
-  background-color: rgb(207, 23, 23);
+  background-color: purple;
   border-radius: 50%;
   display: inline-block;
 }
@@ -53,4 +53,8 @@ body {
 
 a {
   padding-right: 20px;
+}
+
+.news {
+  background-color: purple;
 }
