@@ -1,5 +1,7 @@
 let marqueeSelector = document.getElementById("marqueeSelector");
 
+let sp500=document.getElementById("SP500")
+
 
 
 // fetch("https://apidojo-yahoo-finance-v1.p.rapidapi.com/auto-complete?q=S%26P&region=US", {
@@ -12,6 +14,8 @@ let marqueeSelector = document.getElementById("marqueeSelector");
 // .then(response => response.json())
 // .then(function(data){
 // 	manipulateData(data);
+
+
 
 	
 // 	for (let i = 0; i < data.news.length; i++) {
@@ -34,3 +38,18 @@ let marqueeSelector = document.getElementById("marqueeSelector");
 function manipulateData (marketData) {
 
 };
+
+SP500.addEventListener("click", function(event){
+    event.preventDefault();
+    
+
+
+    
+container.innerHTML = `<h4>S&P 500</h4> 
+                        <p>    Quote Type: ${marketData.quotes[0].quoteType}</p>
+                        <p> Symbol:  ${marketData.quotes[0].symbol}</p>
+                        <p> Score: ${marketData.quotes[0].score} </p>`
+                    
+
+
+})
