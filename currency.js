@@ -1,5 +1,5 @@
 const URL = " https://v6.exchangerate-api.com/v6/c880451324935553df25617a/latest/USD";
-let currencyContainer = document.getElementById("currencyContainer");
+let container = document.getElementById("container");
 
 let button1 = document.getElementById("button1");
 let displayArea = document.getElementById("displayArea");
@@ -15,7 +15,7 @@ button1.addEventListener("click", function(event){
 
 
     
-currencyContainer.innerHTML = `<p>USD:</p>${"$ "+data.conversion_rates.USD}
+container.innerHTML = `<p>USD:</p>${"$ "+data.conversion_rates.USD}
 <p>EUR:</p>${"€ "+data.conversion_rates.EUR}
 <p>JPY:</p>${"¥ "+data.conversion_rates.JPY}
 <p>GBP:</p>${"£"+data.conversion_rates.GBP}
@@ -23,6 +23,7 @@ currencyContainer.innerHTML = `<p>USD:</p>${"$ "+data.conversion_rates.USD}
 <p>CAD:</p>${"$ "+data.conversion_rates.CAD}
 <p>CHF:</p>${"º"+data.conversion_rates.CHF}
 <p>VND:</p>${"₫ "+data.conversion_rates.VND}`
+
 
 
 
