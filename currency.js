@@ -9,8 +9,6 @@ fetch(URL)
 .then(response => response.json())
 .then(function(data){
 console.log(data);
-<<<<<<< HEAD
-=======
 button1.addEventListener("click", function(event){
     event.preventDefault();
     
@@ -32,6 +30,5 @@ container.innerHTML = `<p>USD:</p>${"$ "+data.conversion_rates.USD}
 })
 
 
->>>>>>> 4d792498f3146ba700d2cf20d09fcf4da98b04ff
 })
 
