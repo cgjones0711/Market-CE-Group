@@ -5,3 +5,4 @@ fetch(URL)
 .then(function(data){
 console.log(data);
 })
+
