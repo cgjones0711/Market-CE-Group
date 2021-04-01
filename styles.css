@@ -74,8 +74,15 @@ box-shadow: 10px 10px 36px 1px rgba(90,90,90,0.49);
 
 }
 
-a {
-  padding-right: 20px;
+#second-tradingview {
+display:flex;
+justify-content: center;
+
+}
+
+.tradingview-widget-container {
+  
+ 
 }
 
 button {
@@ -92,7 +99,21 @@ button {
   color: #070703;
   text-align: center;
   transition: all 0.2s;
+  width: 200px;
+  margin-left: 80px;
+
 }
+
+#FEXRdivResp {
+margin-top: 40px; 
+margin-bottom: 40px;
+box-shadow: 10px 10px 36px 1px rgba(90,90,90,0.49);
+-webkit-box-shadow: 10px 10px 36px 1px rgba(90,90,90,0.49);
+-moz-box-shadow: 10px 10px 36px 1px rgba(90,90,90,0.49);
+
+}
+
+
 button:hover {
   color: #000000;
   background-color: #00b068;
