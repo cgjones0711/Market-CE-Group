@@ -1,8 +1,8 @@
-// const URL = " https://v6.exchangerate-api.com/v6/c880451324935553df25617a/latest/USD";
-// let container = document.getElementById("container");
+const URL = " https://v6.exchangerate-api.com/v6/c880451324935553df25617a/latest/USD";
+let container = document.getElementById("container");
 
-// let button1 = document.getElementById("button1");
-// let displayArea = document.getElementById("displayArea");
+let button1 = document.getElementById("button1");
+let displayArea = document.getElementById("displayArea");
 
 
 fetch(URL)
