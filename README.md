@@ -23,3 +23,6 @@ Contributors:
 o Keona Kirby
 o Andrew Medina
 o Clayton Jones
+
+Deployment:
+ https://cgjones0711.github.io/Market-CE-Group/.
