@@ -80,10 +80,6 @@ justify-content: center;
 
 }
 
-.tradingview-widget-container {
-  
- 
-}
 
 button {
   display: inline-block;
@@ -100,7 +96,7 @@ button {
   text-align: center;
   transition: all 0.2s;
   width: 200px;
-  margin-left: 80px;
+  margin-left: 150px;
 
 }
 
@@ -111,6 +107,39 @@ box-shadow: 10px 10px 36px 1px rgba(90,90,90,0.49);
 -webkit-box-shadow: 10px 10px 36px 1px rgba(90,90,90,0.49);
 -moz-box-shadow: 10px 10px 36px 1px rgba(90,90,90,0.49);
 
+}
+
+.card {
+ display: flex;
+  margin: 40px;
+padding: 20px;
+box-shadow: 10px 10px 36px 1px rgba(90,90,90,0.49);
+-webkit-box-shadow: 10px 10px 36px 1px rgba(90,90,90,0.49);
+-moz-box-shadow: 10px 10px 36px 1px rgba(90,90,90,0.49);
+}
+
+.input-group {
+display: flex;
+margin:30px;
+padding: 10px;
+}
+
+#user {
+  color: rgb(20, 20, 218);
+  font-weight: bold;
+}
+
+#pass {
+  color:rgb(20, 20, 218);
+  font-weight: bold;
+}
+
+#userName {
+  margin-left: 10px;
+}
+
+#password {
+  margin-left: 20px;
 }
 
 
